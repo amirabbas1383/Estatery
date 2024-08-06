@@ -7,31 +7,28 @@
     <title>Estatery</title>
     <link rel="icon" type="image/x-icon" href="../image/logo/Frame.svg">
     <link rel="stylesheet" href="./style/app.css">
+    <link rel="stylesheet" href="./style/responsive.css">
 </head>
 
 <body>
-    <!--icon project-->
-    <svg class="svg">
-        <symbol id="logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M25.3333 11.6133L18.2226 6.08264C17.5986 5.59719 16.8306 5.33362 16.04 5.33362C15.2494 5.33362 14.4813 5.59719 13.8573 6.08264L6.74529 11.6133C6.31788 11.9457 5.97208 12.3713 5.7343 12.8578C5.49651 13.3442 5.37304 13.8785 5.37329 14.42V24.02C5.37329 24.7272 5.65424 25.4055 6.15434 25.9056C6.65444 26.4057 7.33271 26.6866 8.03996 26.6866H24.04C24.7472 26.6866 25.4255 26.4057 25.9256 25.9056C26.4257 25.4055 26.7066 24.7272 26.7066 24.02V14.42C26.7066 13.3226 26.2 12.2866 25.3333 11.6133Z"
-                fill="#7065F0" stroke="#7065F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M21.3334 20C18.3867 21.7773 13.6107 21.7773 10.6667 20" stroke="#F9FAFB" stroke-width="3"
-                stroke-linecap="round" stroke-linejoin="round" />
-        </symbol>
-        <symbol id="arrow-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd"
-                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                clip-rule="evenodd" />
-        </symbol>
-
-    </svg>
     <!--header page home-->
     <header>
+        <div class="btn-header-mobile">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu-mobile">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                  </svg>
+            </button>
+        
+        </div>
         <div class="box-navigation">
             <div class="box-logo">
-                <svg class="logo-header">
-                    <use href="#logo"></use>
+                <svg class="logo-header" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M25.3333 11.6133L18.2226 6.08264C17.5986 5.59719 16.8306 5.33362 16.04 5.33362C15.2494 5.33362 14.4813 5.59719 13.8573 6.08264L6.74529 11.6133C6.31788 11.9457 5.97208 12.3713 5.7343 12.8578C5.49651 13.3442 5.37304 13.8785 5.37329 14.42V24.02C5.37329 24.7272 5.65424 25.4055 6.15434 25.9056C6.65444 26.4057 7.33271 26.6866 8.03996 26.6866H24.04C24.7472 26.6866 25.4255 26.4057 25.9256 25.9056C26.4257 25.4055 26.7066 24.7272 26.7066 24.02V14.42C26.7066 13.3226 26.2 12.2866 25.3333 11.6133Z"
+                        fill="#7065F0" stroke="#7065F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21.3334 20C18.3867 21.7773 13.6107 21.7773 10.6667 20" stroke="#F9FAFB" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <span>Estatery</span>
             </div>
@@ -40,14 +37,18 @@
                 <li><a href="">Buy</a></li>
                 <li><a href="">Sell</a></li>
                 <li><a href="">Manage Property
-                        <svg class="arrow-navigation">
-                            <use href="#arrow-bottom"></use>
-                        </svg>
+                    <svg class="arrow-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="evenodd" />
+                    </svg>
                     </a></li>
                 <li><a href="">Resources
-                        <svg class="arrow-navigation">
-                            <use href="#arrow-bottom"></use>
-                        </svg>
+                    <svg class="arrow-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="evenodd" />
+                    </svg>
                     </a>
                 </li>
             </ul>
@@ -55,6 +56,11 @@
         <div class="box-btn-log">
             <a class="btn-log" href="http://">Login</a>
             <a class="btn-sin" href="http://">Sign up</a>
+            <a class="box-user-header" href="http://">
+                <svg  class="user-header" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                  </svg>
+            </a>
         </div>
     </header>
 
