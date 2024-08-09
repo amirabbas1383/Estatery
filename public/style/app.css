@@ -13,13 +13,13 @@ body {
 header {
     width: 100%;
     height: 96px;
-    background-color: #e0def780;
+    border-bottom: 2px solid #F0EFFB;
+    background-color: rgba(255, 255, 255, 0.40);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 48px 0px 48px;
     box-sizing: border-box;
-    position: absolute;
 }
 
 .box-navigation {
@@ -91,9 +91,9 @@ header {
     opacity: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 340px;
+    margin-top: 343px;
     width: 200px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0px 0px 20px #e0def796;
 }
@@ -182,4 +182,57 @@ header {
 .btn-header-mobile>button {
     border: none;
     background-color: rgba(255, 255, 255, 0);
+}
+
+.section-base{
+    background-color: #F7F7FD;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/section-base/Rectangle\ 2684.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 48px 100px 56px 160px;
+    box-sizing: border-box;
+}
+.box-text-base{
+    width: 544px;
+}
+.heading-text-base{
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: #000929;
+}
+
+.p-text-base{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000929;
+    margin-bottom: 48px;
+}
+
+.container-conter{
+    display: flex;
+    gap: 80px;
+}
+
+.box-conter{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-left: 2px solid #E0DEF7;
+    padding-left: 27px;
+}
+.box-conter>div>span{
+font-size: 32px;
+font-weight: bold;
+color: #7065F0;
+}
+.box-conter>span{
+    color: #6C727F;
 }
