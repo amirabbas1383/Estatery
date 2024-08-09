@@ -22,6 +22,10 @@ header {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .box-navigation {
     display: flex;
     width: auto;
@@ -204,7 +208,7 @@ header {
     box-sizing: border-box;
 }
 
-.container-base {
+.base {
     display: flex;
 }
 
@@ -330,4 +334,110 @@ header {
     line-height: 20px;
     font-weight: 500;
     color: #6C727F;
+}
+
+.box-tab {
+    width: 297px;
+    height: 56px;
+    background-color: white;
+    border-bottom: 1px solid #E0DEF7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-tab>a {
+    color: #000929;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 32px 15px 32px;
+    box-sizing: border-box;
+}
+
+.container-tab {
+    margin-top: 56px;
+}
+
+.box-tab>.active {
+    color: #7065F0;
+    border-bottom: 3px solid #7065F0;
+}
+
+.box-content-tab {
+    width: 783px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 32px 25px 32px;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.box-content-tab>a{
+    background-color: #7065F0;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+}
+.box-content-tab>hr{
+    width: 1px;
+    height: 40px;
+    border: none;
+    background-color: #E0DEF7;
+}
+.box-content-tab>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-content-tab>div>span{
+    font-weight: 600;
+    color: #001619;
+}
+.box-content-tab>div>h4{
+    font-weight: bold;
+font-size: 18px;
+color: #000929;
+margin-block: 4px;
+}
+.icon-box-whne {
+    color: #6C727F;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.box-location{
+    position: relative;
+   width: 245px;
+   height: 388px;
+   margin-left: 280px;
+}
+.parent-dot{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #7570ff96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.parent-dot>div{
+    width: 8px;
+    height: 8px;
+    background-color: #ffff;
+    border-radius: 50px;
+    border: 8px solid #7065F0;
+}
+.line-location{
+    height: 100%;
+}
+.home-icon-location{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
